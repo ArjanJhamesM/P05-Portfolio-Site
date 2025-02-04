@@ -90,7 +90,7 @@ body
     color: #001B2D;
 }
 
-.tiles-productions-thumbnail
+.hobby-thumbnail
 {
     overflow: hidden;
     max-width: 450px;
@@ -105,17 +105,31 @@ body
     margin: -30% auto auto auto;
 }
 
-.design-thumbnail
-{
-    overflow: hidden;
-    max-width: 450px;
-    max-height: 300px;
-}
-
 .design-background
 {
     width: 600px;
     height: 500px;
     object-fit: cover;
     margin: -25%;
+}
+
+#design-inline
+{
+    background-color: #fff3f2;
+}
+
+.tiles-archive-background
+{
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    margin: -125px 0 0 -50px;
+}
+
+.tiles-jam-background
+{
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    margin: -90px 0 0 20px;
 }
