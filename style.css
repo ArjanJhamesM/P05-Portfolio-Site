@@ -61,12 +61,12 @@ body
     align-items: center;
     justify-content: center;
     background-color: #ecfaff;
+    margin: 0 0 38px 0;
 }
 
 .hobby-text
 {
     margin: 0 50px 0 50px;
-
 }
 
 .hobby-name
@@ -76,7 +76,6 @@ body
     width: 500px;
     margin: 0 0 10px 0;
 }
-
 
 .hobby-short-description
 {
@@ -95,6 +94,24 @@ body
     overflow: hidden;
     max-width: 450px;
     max-height: 300px;
+}
+
+.hobby-view-button
+{
+    background-color: #001b2d;
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+}
+
+.hobby-view-link
+{
+    color: white;
+}
+
+.hobby-view-link-dark
+{
+    color: #001B2D;
 }
 
 .tiles-productions-background
@@ -133,3 +150,94 @@ body
     object-fit: cover;
     margin: -90px 0 0 20px;
 }
+
+.hobby-header-image /* this is stupid bad code */
+{
+    overflow: hidden;
+    height: 50vh;
+}
+
+#tiles-productions-header
+{
+    width: 125%;
+    height: 475px;
+    object-fit: cover;
+    margin: -3% auto auto -13%; /* overflow with margins confuses the shit out of me */
+}
+
+#designs-header
+{
+    width: 125%;
+    height: 475px;
+    object-fit: cover;
+    margin: -3% auto auto -13%;
+}
+
+.back-link
+{
+    color: #001B2D;
+    font-size: 20px;
+}
+
+.hobby-page
+{
+    margin: auto;
+    margin-top: 10px;
+    width: 1152px;
+}
+
+#hobby-page-description
+{
+    width: 880px;
+}
+
+.hobby-logo
+{
+    object-fit: scale-down;
+    width: 256px;
+    height: 256px;
+    display: block; /* bitch what? */
+    margin: auto;
+    margin-bottom: -25px;
+}
+
+#tiles-archive-logo
+{
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+}
+
+.hobby-page-short-description
+{
+    font-weight: bold;
+    font-size: 30;
+    text-align: center;
+    display: auto;
+    margin: 0 0 100px 0;
+}
+
+.hobby-page-full-description
+{
+    text-align: justify;
+    text-align-last: left;
+    font-size: 18;
+    margin: 0 0 75px 0;
+}
+
+#tiles-archive-full-description
+{
+    margin: 0%;
+}
+
+.link-in-description
+{
+    margin: 0 0 75px 0;
+
+}
+
+.embed
+{
+    margin:auto;
+}
+
