@@ -205,10 +205,21 @@ a.toggle-button-link
     margin: -3% auto auto -13%;
 }
 
+.back-button
+{
+    display: flex;
+    background-color: #001B2D;
+    width: fit-content;
+    padding: 7px;
+    column-gap: 3px;
+    align-items: center;
+}
+
 .back-link
 {
-    color: #001B2D;
-    font-size: 20px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 .hobby-page
